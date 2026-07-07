@@ -1,0 +1,29 @@
+# Chrome / Selenium user data & cache
+BrowserMetrics/
+Crashpad/
+Default/
+GPUPersistentCache/
+GrShaderCache/
+ShaderCache/
+component_crx_cache/
+extensions_crx_cache/
+optimization_guide_model_store/
+segmentation_platform/
+
+# Chrome specific files
+*.pma
+DevToolsActivePort
+First Run
+Last Browser
+Last Version
+Local State
+Variations*
+*.db
+*.db-journal
+
+# Python files you also want to ignore
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
